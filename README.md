@@ -2,7 +2,7 @@
 ![GitHub All Releases](https://img.shields.io/github/downloads/jmeubank/tdm-gcc/total?color=%2309ABF6&label=installer%20downloads)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/jmeubank/tdm-gcc)
 
-TDM-GCC 9.2.0
+TDM-GCC 10.3.0
 
 ## COPYING ##
 
@@ -40,7 +40,7 @@ the following packages:
  * For the TDM64 edition, the GNU binutils sources
      (https://github.com/jmeubank/tdm-binutils-gdb/tree/tdm-patches-binutils.public)
      and the MinGW-w64 project's runtime sources
-     (https://sourceforge.net/p/mingw-w64/mingw-w64/ci/v7.0.0/tree/)
+     (https://github.com/jmeubank/mingw-w64/tree/tdm-patches)
  * The GCC source package
      (https://github.com/jmeubank/tdm-gcc-src/tree/tdm-patches.public)
  * The GMP, MPFR, and MPC sources
@@ -58,7 +58,7 @@ the following packages:
 
 ## BUILD NOTES ##
 
-The 9.2.0 TDM32 and TDM64 GCC binaries were built as native bootstraps in
+The 10.3.0 TDM32 and TDM64 GCC binaries were built as native bootstraps in
 Windows 10 (64-bit), using previously built toolchains with the same set of
 patches, under the [MSYS2](https://www.msys2.org/) environment. The build
 scripts in this package will probably not work in Cygwin, WSL, or GNU/Linux
